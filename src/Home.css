@@ -1,0 +1,139 @@
+/* Header and Navigation */
+header {
+  background-color: #333;
+  padding: 15px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Main Page Title */
+h1 {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 2.5em;
+  color: #333;
+}
+
+/* Card Container */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Card Hover Effect */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Blog Container */
+.blog-container {
+  margin: 40px;
+  text-align: center;
+}
+
+.blog-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.blog-container h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.blog-container h3 {
+  font-size: 1.5em;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.blog-container p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Create Blog Form */
+.create-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 600px;
+}
+
+.create-form label {
+  margin: 10px 0;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.create-form input,
+.create-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.create-form button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-form button:hover {
+  background-color: #555;
+}
