@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
+import Button from "./Button";
 
 function Home() {
   return (
@@ -13,6 +14,10 @@ function Home() {
       </header>
 
       <h1>This is the home page.</h1>
+
+      <Button text="Test Button" />
+      <Button text="T1 Button" />
+
       <div className="card-container">
         <div className="card">
           <img src="path-to-image1.jpg" alt="Image 1" />
