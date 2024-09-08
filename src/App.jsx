@@ -4,6 +4,7 @@ import Home from "./Home";
 import Create from "./Create";
 import Blog from "./Blog";
 import Test from "./Test";
+import UseState from "./UseState";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/createblog" element={<Create />} />
         <Route path="/test" element={<Test />} />
+        <Route path="/useState" element={<UseState />} />
       </Routes>
     </BrowserRouter>
   );
