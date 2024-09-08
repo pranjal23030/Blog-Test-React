@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
 import Button from "./Button";
+import Card from "./Card";
 
 function Home() {
   return (
@@ -19,18 +20,9 @@ function Home() {
       <Button text="T1 Button" />
 
       <div className="card-container">
-        <div className="card">
-          <img src="path-to-image1.jpg" alt="Image 1" />
-          <p>Blog 1</p>
-        </div>
-        <div className="card">
-          <img src="path-to-image2.jpg" alt="Image 2" />
-          <p>Blog 2</p>
-        </div>
-        <div className="card">
-          <img src="path-to-image3.jpg" alt="Image 3" />
-          <p>Blog 3</p>
-        </div>
+        <Card imageSrc="#" title="Blog 1" />
+        <Card imageSrc="#" title="Blog 2" />
+        <Card imageSrc="#" title="Blog 3" />
       </div>
     </>
   );
