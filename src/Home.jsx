@@ -16,9 +16,6 @@ function Home() {
 
       <h1>This is the home page.</h1>
 
-      <Button text="Test Button" />
-      <Button text="T1 Button" />
-
       <div className="card-container">
         <Card imageSrc="#" title="Blog 1" />
         <Card imageSrc="#" title="Blog 2" />
