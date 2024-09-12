@@ -8,7 +8,7 @@ function Blog() {
         <nav>
           <Link to="/">Home</Link>
           <Link to="/blog">Blogs</Link>
-          <Link to="/createblog">Create Blog</Link>
+          <Link to="/create-blog">Create Blog</Link>
         </nav>
       </header>
 
