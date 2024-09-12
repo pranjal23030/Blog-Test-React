@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
-import Button from "./Button";
 import Card from "./Card";
 
 function Home() {
@@ -10,7 +9,7 @@ function Home() {
         <nav>
           <Link to="/">Home</Link>
           <Link to="/blog">Blogs</Link>
-          <Link to="/createblog">Create Blogs</Link>
+          <Link to="/create-blog">Create Blogs</Link>
         </nav>
       </header>
 
