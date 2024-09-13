@@ -16,9 +16,15 @@ function Home() {
       <h1>This is the home page.</h1>
 
       <div className="card-container">
-        <Card imageSrc="#" title="Blog 1" />
-        <Card imageSrc="#" title="Blog 2" />
-        <Card imageSrc="#" title="Blog 3" />
+        <Card
+          imageSrc="src\assets\180767174_4459288410756887_4792041394727702662_n.jpg"
+          title="Blog 1"
+        />
+        <Card imageSrc="src\assets\Adelaide C.G.jpg" title="Blog 2" />
+        <Card
+          imageSrc="src\assets\IMG_20210507_233451.jpg.jpg"
+          title="Blog 3"
+        />
       </div>
     </>
   );
